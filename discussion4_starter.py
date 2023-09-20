@@ -19,7 +19,7 @@ class Rectangle():
     #       "A rectangle with width {self.with} and height {self.height}"
 
     # YOUR CODE HERE
-    def __str__(self):
+    def __str__(self)
         return f"A rectangle with width {self.width} and height {self.height}"
 
 
@@ -31,7 +31,7 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def verify_input(self)
+    def verify_input(self):
         if self.width >= 0 and self.height >= 0:
             return True
         else:
